@@ -5,6 +5,3 @@ def sum_of_first_n(n):
         total += i
         
     return total
-
-# n = 10
-# print(f'Sum of first {n} numbers is {sum_of_first_n(n)}')
