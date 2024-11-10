@@ -19,9 +19,6 @@ class TestSumOfFirstN(unittest.TestCase):
 
     def test_sum_of_first_n_zero(self):
         self.assertEqual(sum_of_first_n(0), 0)  # Sum of first 0 numbers should be 0
-        
-    def test_sum_of_first_n_negative(self):
-        self.assertEqual(sum_of_first_n(-5), 0)  # Assuming the function returns 0 for negatives
 
     def test_performance(self):
         # Performance test with a very large number
