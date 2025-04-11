@@ -1,3 +1,4 @@
+# function to calculate sum of first n numbers
 def sum_of_first_n(n):
     total = 0
 
